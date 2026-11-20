@@ -78,7 +78,7 @@
 &kp ESC               &kp Q                 &kp W                 &kp E                 &kp R                 &kp T                 &kp Y                 &kp U                 &kp I                 &kp O                 &kp P                 &kp BSLH
 &mt LCTRL TAB         &kp A                 &kp S                 &kp D                 &kp F                 &kp G                 &kp H                 &kp J                 &kp K                 &kp L                 &kp SEMI              &kp MINUS
 &kp LSHFT             &kp Z                 &kp X                 &kp C                 &kp V                 &kp B                 &kp C_MUTE            &none                 &kp N                 &ctrl_m_enter         &kp COMMA             &kp DOT               &kp FSLH              &kp RSHFT
-&kp LALT              &kp LALT              &kp LC(LS(LG(N4)))    &kp LGUI              &lt 1 LANG2           &kp SPACE             &kp RET               &lt 2 LANG1           &kp TAB               &kp LC(LS(LA(LGUI)))  &kp RALT              &kp RCTRL
+&kp LALT              &kp LALT              &kp LC(LS(LG(N4)))    &kp LGUI              &lt 1 LANG2           &kp SPACE             &kp SPACE             &lt 2 LANG1           &kp TAB               &kp LC(LS(LA(LGUI)))  &kp RALT              &kp RCTRL
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &scroll_enc>;
         };
