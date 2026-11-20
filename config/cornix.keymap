@@ -14,7 +14,8 @@
 
 // Combo：押す時間の差の上限と、直前の打鍵からこれだけ空いていないと Combo を判定しない時間
 #define COMBO_TIMEOUT 70
-#define COMBO_PRIOR_IDLE 150
+// Karabiner の薙刀式の同時押しの幅（90ms）と揃える。これより短いと、X→J のような同時押しで J が待たされて失敗する
+#define COMBO_PRIOR_IDLE 90
 
 // 短く押すと Tab、長押しで Ctrl
 // 押している間にほかのキーを押したら、すぐ Ctrl と判定する（Ctrl+H を素早く打っても Tab にならないように）
