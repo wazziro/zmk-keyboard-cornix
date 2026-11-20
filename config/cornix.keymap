@@ -17,8 +17,9 @@
 #define COMBO_PRIOR_IDLE 150
 
 // 短く押すと Tab、長押しで Ctrl
+// 押している間にほかのキーを押したら、すぐ Ctrl と判定する（Ctrl+H を素早く打っても Tab にならないように）
 &mt {
-    flavor = "balanced";
+    flavor = "hold-preferred";
     tapping-term-ms = <TAPPING_TERM>;
 };
 
