@@ -24,8 +24,9 @@
 };
 
 // 短く押すと英数／かな、長押しでレイヤー
+// 押している間にほかのキーを押したら、すぐレイヤーに切り替える（素早く数字や記号を打っても英数／かなにならないように）
 &lt {
-    flavor = "balanced";
+    flavor = "hold-preferred";
     tapping-term-ms = <TAPPING_TERM>;
 };
 
